@@ -11,4 +11,17 @@
   ```  
 
   - 增加环境变量
-  - 
+  
+  ```
+  # 编辑 /etc/profile
+  export HADOOP_HOME=/home/anxin/hadoop-2.7.4
+  export PATH=$PATH:$HADOOP_HOME/bin
+  ``` 
+  
+  - 修改hadoop配置文件
+  
+  ```
+  # 修改./etc/hadoop/hadoop-env.sh
+  
+  
+  ```
