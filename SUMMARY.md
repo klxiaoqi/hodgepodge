@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Ambari环境搭建](Ambari环境搭建.md)
+* [nginx配置](nginx配置.md)
 * [ES](es.md)
 * [Kafka环境部署](kafka_install.md)
 * [es install](es_install.md)
