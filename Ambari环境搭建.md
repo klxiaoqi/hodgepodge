@@ -244,9 +244,9 @@ apt-get remove apparmor apparmor-utils
 * 新建一个http server
 
 ``` bash
-sudo apt install apache2
+apt install apache2
 # 启动服务
-sudo service apache2 start
+service apache2 start
 ```
 
 * 创建一个根目录
@@ -268,8 +268,8 @@ tar -avxf ./hdp/HDP-2.6.1.0-ubuntu16-deb.tar.gz -C /var/www/html/hdp
 tar -avxf ./hdp/HDP-UTILS-1.1.0.21-ubuntu16.tar.gz -C /var/www/html/hdp
 
 # 得到 ./ambari、./hdp/HDP 、./hdp/HDP-UTILS-1.1.0.21 目录
-# http//:10.8.30.176/ambari # http://anxinyun-m1/ambari
-# http//:10.8.30.176/hdp # http://anxinyun-m1/hdp
+# http://10.8.30.176/ambari # http://anxinyun-m1/ambari
+# http://10.8.30.176/hdp # http://anxinyun-m1/hdp
 ```
 
 * 配置本地仓库源

@@ -9,4 +9,5 @@
 * [hadoop install](hadoop_install.md)
 * [常用正则表达式](pattern_comm.md)
 * [ES添加删除节点](es-add-or-delete-node.md)
+* [Ubuntu 配置PostgreSQL9.6主从复制](postgresql-master-slaver.md)
 
